@@ -2884,4 +2884,4 @@ class MusicBot(discord.Client):
                 return vc
         return None
 
-client.run(str(os.environ.get('BOT_TOKEN')))
+client.run(str(os.environ('BOT_TOKEN')))
